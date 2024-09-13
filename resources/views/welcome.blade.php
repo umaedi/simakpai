@@ -68,7 +68,7 @@
       </div>
     </div>
      <footer class="my-5 text-muted text-center text-small">
-      <p class="mb-1">Copyright © 2023 Dinas Komunikasi dan Informatika Tulang Bawang. Developed By <a href="https://api.whatsapp.com/send?phone={{ env('NO_DEV') }}">IT DISKOMINFO</a></p>
+      <p class="mb-1">Copyright © 2023 Dinas Komunikasi dan Informatika Tulang Bawang. Developed By <a href="#">IT DISKOMINFO</a></p>
     </footer>
    </div>
    </main>

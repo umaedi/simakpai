@@ -14,7 +14,7 @@
         <form action="/register" method="POST" enctype="multipart/form-data">
           @csrf
              <div class="form-group my-3">
-               <label for="nip">Konfirmasi Status Wajib Pajak (KSWP)</label>
+               <label for="nip">KONFIRMASI STATUS WAJIB PAJAK (KSWP)</label>
                <input type="file" class="form-control @error('nip') is-invalid @enderror" id="nip" name="nip" value="{{ old('nip') }}">
                @error('nip')
                   <div class="invalid-feedback">{{ $message }}</div>
@@ -102,7 +102,7 @@
     </div>
 </div>
 <footer class="my-5 text-muted text-center text-small">
-  <p class="mb-1">Copyright © 2023 Dinas Komunikasi dan Informatika Tulang Bawang. Developed By <a href="https://api.whatsapp.com/send?phone={{ env('NO_DEV') }}">IT DISKOMINFO</a></p>
+  <p class="mb-1">Copyright © 2024 Dinas Komunikasi dan Informatika Tulang Bawang. Developed By <a href="#">IT DISKOMINFO</a></p>
 </footer>
 </main>
 @endsection

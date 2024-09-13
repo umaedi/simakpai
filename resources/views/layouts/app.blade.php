@@ -4,15 +4,15 @@
 <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Inspektorat | E-form </title>
-      <meta name="description" content="Permohonan surat bebas temuan inspektorat Kabupaten Tulang Bawang">
+      <title>{{ $title ?? 'Pendaftaran Media Online' }}</title>
+      <meta name="description" content="Pendaftaran Media Online Kabupaten Tulang Bawang">
       <meta name="keywords" content="Permohonan surat bebas temuan"/>
-      <meta property="og:url" content="https://psbt-inspektorat.tulangbawangkab.go.id/"/>
-      <meta property="og:title" content="Permohonan surat bebas temuan inspektorat Kabupaten Tulang Bawang"/>
-      <meta property="og:description" content="Permohonan surat bebas temuan inspektorat Kabupaten Tulang Bawang" />
-      <meta property="og:image" content="{{ asset('img/thumbnail.jpg') }}"/>
-      <meta property="og:image:url" content="{{ asset('img/thumbnail.jpg') }}"/>
-      <meta property="twitter:image" content="{{ asset('img/thumbnail.jpg') }}"/>
+      <meta property="og:url" content="{{ url()->current() }}"/>
+      <meta property="og:title" content="Pendaftaran Media Online Kabupaten Tulang Bawang"/>
+      <meta property="og:description" content="Pendaftaran Media Online Kabupaten Tulang Bawang" />
+      <meta property="og:image" content="{{ asset('img/thumbnail.png') }}"/>
+      <meta property="og:image:url" content="{{ asset('img/thumbnail.png') }}"/>
+      <meta property="twitter:image" content="{{ asset('img/thumbnail.png') }}"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="csrf-token" content="{{ csrf_token() }}">
 
